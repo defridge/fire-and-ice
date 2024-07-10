@@ -1,0 +1,52 @@
+/* Body Styles */
+html, body {
+    height: 100%;
+}
+
+body {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding-top: 100px;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+#main {
+    background-color: white !important;
+}
+
+/* Header Styles */
+.navbar {
+    background-image: url('assets/images/nav.webp') !important;
+    background-size: cover !important; 
+    background-position: center !important;
+}
+
+.navbar-brand img {
+    height: 100px;
+}
+
+.d-flex {
+    position: relative;
+}
+
+.navbar-toggler {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+/* Footer Styles */
+footer {
+    flex-shrink: 0;
+    /* background-color: */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    /* border-top: var(--border); */
+}
